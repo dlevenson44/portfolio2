@@ -9,71 +9,91 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="./styles/main.css">
 </head>
-<body>
-    <div class="container"> 
+<body>    
     <!-- header -->
     <div class="row">
-    <header class="left" id="header">
-        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+    <header class="header">
+        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12" id="header-div">
             <img src="./imgs/danagain.jpeg" alt="" id="header-img" />
-            <p id="header-text"><strong>Dan Levenson</strong>, Fullstack Web Developer,<br />
-            NYC born and raised,<br />
-            React | Node | Ruby on Rails | Bootstrap | jQuery <br />
-            Javascript | Ruby | HTML | CSS</p>
+            <p class="header-text"><strong>Dan Levenson</strong>, Fullstack Web Developer,<br />
+            NYC born and raised.</p>
+            <!-- <p class="header-text"></p>React | Node | Ruby on Rails | Bootstrap | jQuery 
+            Javascript | Ruby | HTML | CSS</p> -->
+            <ul style="list-style: none; width: 300px;">
+                <li>React</li>
+                <li>Express</li>
+                <li>Node</li>
+                <li>Ruby on Rails</li>
+                <li>Bootstrap</li>
+                <li>jQuery</li>
+                <li>JavaScript</li>
+                <li>Ruby</li>
+                <li>HTML</li>
+                <li>CSS</li>
+            </ul>
         </div>
     </header>
     </div>
 
-    <!-- main content -->   
+    
+
+    <!-- main content --> 
+    <div class="container">   
     <div class="col-lg-8 col-md-8 col-sm-6 col-xs-12" id="main">
         <!-- first section -->
         <section>
             <header class="major">
-                <h2>I aim to create websites that people want to use, and write code that's easy to maintain.</h2>
+                <h2>I aim to create websites that users want to utilize, and write code that's easy to maintain.</h2>
             </header>
-            <p>I was born and raised in NYC, and graduated from Clark University with a BA in Business Management.  With 6 years of experience working in IT and Product Support roles, I have a great appreciation for the importance of the user experience.  My passion for technology combined with my relentless curiosity is what first drew me to web development, and since I have started they have only grown over time.</p>
+            <p id="one-para">I was born and raised in NYC, and graduated from Clark University with a BA in Business Management.  With 6 years of experience working in IT and Product Support roles, I have a great appreciation for the importance of the user experience.  My passion for technology combined with my relentless curiosity is what first drew me to web development, and since I have started they have only grown over time.</p>
         </section>
 
+        <hr />
+
         <!-- second section -->
-        <section>
-            <h2>Projects</h2>
-            <div class="row">
-                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-                        <a href="https://radiant-earth-24132.herokuapp.com/"  target="_blank">
-                            <img src="https://i.imgur.com/uT5Y4QA.png" class="project-img" /> </a>
-                        <!-- <h1 class="project-name">Cryptotracker</h1>
-                        <p class="project-desc"></p> -->
+        <section class="projects">
+            <h1 class="project-header">Projects</h1>
+            <div class="row" id="one">
+                <div class="col-lg-6 col-md-8 col-sm-12 col-xs-12">
+                    <a href="https://radiant-earth-24132.herokuapp.com/"  target="_blank">
+                        <img src="https://i.imgur.com/uT5Y4QA.png" class="project-img" /> </a>
+                    <p class="project-desc">Crypto Tracker pulls in pricing information for various cryptocurrencies, and graphs data using ChartJS.  Built using React, utilizes the CoinCap, Kraken, and Poloniex APIs.</p>
                 </div>
-                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-                        <a href="https://radiant-earth-24132.herokuapp.com/"  target="_blank">
-                            <img src="https://i.imgur.com/uT5Y4QA.png" class="project-img" /> </a>
+                <div class="col-lg-6 col-md-8 col-sm-12 col-xs-12">
+                    <a href="https://radiant-earth-24132.herokuapp.com/"  target="_blank">
+                        <img src="https://i.imgur.com/uT5Y4QA.png" class="project-img" /> </a>
+                    <p class="project-desc">ReciP allows users to search for any recipe, giving them the option to create an account and bookmark their favorite recipes.  Built with Node, and utilizing the Edamam API.</p>
                 </div>
             </div>
-            <div class="row">
-                    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-                            <a href="https://radiant-earth-24132.herokuapp.com/"  target="_blank">
-                                <img src="https://i.imgur.com/uT5Y4QA.png" class="project-img" /> </a>
-                    </div>
-                    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-                            <a href="https://radiant-earth-24132.herokuapp.com/"  target="_blank">
-                                <img src="https://i.imgur.com/uT5Y4QA.png" class="project-img" /> </a>
-                    </div>
+            <div class="row" id="two">
+                <div class="col-lg-6 col-md-8 col-sm-12 col-xs-12">
+                    <a href="https://radiant-earth-24132.herokuapp.com/"  target="_blank">
+                        <img src="https://i.imgur.com/uT5Y4QA.png" class="project-img" /> </a>
+                    <p class="project-desc">Find-A-Pet is a one-stop shop for people and shelters that have pets who are available for adoption or to foster.  Built with Ruby on Rails, Find-A-Pet allows users to upload images, which are stored using AWS.</p>
                 </div>
+                <div class="col-lg-6 col-md-8 col-sm-12 col-xs-12">
+                    <a href="https://radiant-earth-24132.herokuapp.com/"  target="_blank">
+                        <img src="https://i.imgur.com/uT5Y4QA.png" class="project-img" /> </a>
+                    <p class="project-desc">Workout Logger allows users to keep track of their workout history, while generating motivational quotes to inspire.  Built with Ruby on Rails.</p>
+                </div>
+            </div>
         </section>
 
     </div>
+    </div>
+    
 
     <!-- footer -->
-    <div class="row">
-    <footer class="left">
+    <!-- <div class="row"> -->
+    <footer>
         <ul class="nav nav-pills" id="footer-list">
             <li><a href="https://www.linkedin.com/in/daniel-levenson/" class="fa fa-linkedin-square fa-2x"></a></li>
             <li><a href="https://www.github.com/dlevenson44" class="fa fa-github fa-2x"></a></li>
             <li><a href="mailto:daniellevenson4@gmail.com" class="fa fa-envelope-o fa-2x"></a></li>
         </ul>      
     </footer>   
-    </div>
-    </div>
+    <!-- </div> -->
+    <!-- </div> -->
 
     <!-- scripts -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
