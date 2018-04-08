@@ -149,17 +149,3 @@ footer {
         width: 750px;
     }
 }
-/* 
-@media only screen and (max-width: 550px) {
-    #nav-link {
-        color: white;
-    }
-    
-    #nav-link:visited {
-        color: white;
-    }
-    
-    #nav-link:hover {
-        color: white;
-    }
-} */
