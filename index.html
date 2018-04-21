@@ -56,15 +56,29 @@
         <section class="projects">
             <h1 class="project-header">Projects</h1>
             <!-- nav bar for projects -->
-            <ul class="nav nav-pill">
+            <nav>
+                    <div class="nav nav-tabs" id="nav-tab" role="tablist">
+                      <a class="nav-item nav-link active" id="nav-cryptotracker-tab" data-toggle="tab" href="#nav-cryptotracker" role="tab" aria-controls="nav-home" aria-selected="true">Cryptotracker</a>
+                      <a class="nav-item nav-link" id="nav-recip-tab" data-toggle="tab" href="#nav-recip" role="tab" aria-controls="nav-profile" aria-selected="false">ReciP</a>
+                      <a class="nav-item nav-link" id="nav-findapet-tab" data-toggle="tab" href="#nav-findapet" role="tab" aria-controls="nav-contact" aria-selected="false">Find-A-Pet</a>
+                      <a class="nav-item nav-link" id="nav-workoutlogger-tab" data-toggle="tab" href="#nav-workoutlogger" role="tab" aria-controls="nav-contact" aria-selected="false">Workout Logger</a>
+                    </div>
+                  </nav>
+                  <div class="tab-content" id="nav-tabContent">
+                    <div class="tab-pane fade show active" id="nav-cryptotracker" role="tabpanel" aria-labelledby="nav-cryptotracker-tab">Cryptotracker!</div>
+                    <div class="tab-pane fade" id="nav-recip" role="tabpanel" aria-labelledby="nav-recip-tab">ReciP</div>
+                    <div class="tab-pane fade" id="nav-findapet" role="tabpanel" aria-labelledby="nav-findapet-tab">Find a Pet</div>
+                    <div class="tab-pane fade" id="nav-workoutlogger" role="tabpanel" aria-labelledby="nav-workoutlogger-tab">Workout Logger</div>
+                  </div>
+            <!-- <ul class="nav nav-pill">
                 <li class="active"><a data-toggle="tab" href="#cryptotracker">Cryptotracker</a></li>
                 <li><a data-toggle="tab" href="#recip">ReciP</a></li>
                 <li><a data-toggle="tab" href="#findapet">Find-A-Pet</a></li>
                 <li><a data-toggle="tab" href="#workoutlogger">Workout Logger</a></li>
-            </ul>
+            </ul> -->
 
             <!-- Individual project pages -->
-            <div class="tab-content">
+            <!-- <div class="tab-content">
                 <div id="cryptotracker" class="tab-pane fade in active">
                     <a href="https://radiant-earth-24132.herokuapp.com/"  target="_blank">
                         <img src="https://i.imgur.com/uT5Y4QA.png" class="project-img" /> </a>
@@ -88,7 +102,7 @@
                         <img src="https://i.imgur.com/R3fnugO.png" class="project-img" /> </a>
                     <p class="project-desc">Workout Logger allows users to keep track of their workout history, while generating motivational quotes to inspire.  Built with Ruby on Rails.</p>
                 </div>
-            </div>
+            </div> -->
         </section>
 
     </div>
