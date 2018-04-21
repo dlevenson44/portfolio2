@@ -42,17 +42,25 @@
     <!-- main content --> 
     <div class="container">   
     <div class="col-lg-8 col-md-8 col-sm-6 col-xs-12" id="main">
-        <!-- first section -->
-        <section>
+        <!-- about section -->
+        <!-- <section>
             <header class="major">
                 <h2>I aim to create websites that users want to utilize, and write code that's easy to maintain.</h2>
             </header>
             <p id="one-para">I was born and raised in NYC, and graduated from Clark University with a BA in Business Management.  With 6 years of experience working in IT and Product Support roles, I have a great appreciation for the importance of the user experience.  My passion for technology combined with my relentless curiosity is what first drew me to web development, and since I have started they have only grown over time.</p>
         </section>
 
+        <hr /> -->
+
+        <!-- skills section -->
+        <section>
+            <p class="skills">React | Ruby on Rails | Node | Bootstrap | jQuery | Postgres | RSpec</p>
+            <p class="skills">JavaScript (ES6) | Ruby | Java | HTML5 | CSS </p>
+        </section>
+
         <hr />
 
-        <!-- second section -->
+        <!-- projects section -->
         <section class="projects">
             <h1 class="project-header">Projects</h1>
             <!-- nav bar for projects -->
@@ -70,29 +78,36 @@
                   
                   <!-- Project Content -->
                   <div class="tab-content" id="nav-tabContent">
-                    
                     <div class="tab-pane fade show active" id="nav-cryptotracker" role="tabpanel" aria-labelledby="nav-cryptotracker-tab">
                         <a href="https://radiant-earth-24132.herokuapp.com/"  target="_blank">
-                            <img src="https://i.imgur.com/uT5Y4QA.png" class="project-img" /> </a>
-                        <p class="project-desc">Crypto Tracker pulls in pricing information for various cryptocurrencies, and graphs data using ChartJS.  Built using React on Node, utilizes the CoinCap, Kraken, and Poloniex APIs.</p>
+                            <img src="https://i.imgur.com/uT5Y4QA.png" class="project-img" /> </a>                        
+                        <p class="project-desc">Cryptotracker tracks pricing information on various cryptocurrencies, including BitCoin, Dash, Ethereum, and LiteCoin.  Pulls information from Cap Market Coin, Kraken, and Poloniex APIs, which are then stored in database after each query.</p>
+                        <p class="project-desc">Built with React on Node</p>
+                        <p class="project-desc">PostgreSQL Database, Hosted on Heroku</p>
                     </div>
                     
                     <div class="tab-pane fade" id="nav-recip" role="tabpanel" aria-labelledby="nav-recip-tab">
                         <a href="https://recip-node.herokuapp.com/"  target="_blank">
                             <img src="https://i.imgur.com/RfJ6nJF.png" class="project-img" /> </a>
-                        <p class="project-desc">ReciP allows users to search for any recipe, giving them the option to create an account and bookmark their favorite recipes.  Built with Express on Node, and utilizing the Edamam API.</p>
+                        <p class="project-desc">ReciP allows users to search for any recipe, listing ingredients and nutritional information utilizing the Edamam API.  Users can sign up for the app to bookmark their favorite recipes.</p>
+                        <p class="project-desc">Built with Express on Node</p>
+                        <p class="project-desc">PostgreSQL Database, Hosted on Heroku</p>
                     </div>
                     
                     <div class="tab-pane fade" id="nav-findapet" role="tabpanel" aria-labelledby="nav-findapet-tab">
                         <a href="https://findapetv2.herokuapp.com/"  target="_blank">
                             <img src="https://i.imgur.com/oDoeSmC.png" class="project-img" /> </a>
-                        <p class="project-desc">Find-A-Pet is a one-stop shop for people and shelters that have pets who are available for adoption or to foster.  Built with Ruby on Rails, Find-A-Pet allows users to upload images, which are stored using AWS.</p>
+                        <p class="project-desc">Find-A-Pet is a one-stop shop for people and shelters that have pets who are available for adoption or to foster.  Users can easily contact posters, and they can alsocreate accounts and upload images for their posts, with images hosted on AWS.</p>
+                        <p class="project-desc">Built with Ruby on Rails</p>
+                        <p class="project-desc">PostgreSQL Database, Hosted on Heroku</p>
                     </div>
                     
                     <div class="tab-pane fade" id="nav-workoutlogger" role="tabpanel" aria-labelledby="nav-workoutlogger-tab">
                         <a href="https://workoutlogger44.herokuapp.com/"  target="_blank">
                             <img src="https://i.imgur.com/R3fnugO.png" class="project-img" /> </a>
-                        <p class="project-desc">Workout Logger allows users to keep track of their workout history, while generating motivational quotes to inspire.  Built with Ruby on Rails.</p>
+                        <p class="project-desc">Workout Logger allows users to keep track of their workout history, while generating motivational quotes to inspire.</p>
+                        <p class="project-desc">Built with Ruby on Rails</p>
+                        <p class="project-desc">PostgreSQL Database, Hosted on Heroku</p>
                     </div>
                   </div>            
         </section>
