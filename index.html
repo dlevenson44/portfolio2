@@ -56,55 +56,48 @@
         <section class="projects">
             <h1 class="project-header">Projects</h1>
             <!-- nav bar for projects -->
-            <nav>
+            <nav class="nav justify-content-center">
                     <div class="nav nav-tabs" id="nav-tab" role="tablist">
                       <a class="nav-item nav-link active" id="nav-cryptotracker-tab" data-toggle="tab" href="#nav-cryptotracker" role="tab" aria-controls="nav-home" aria-selected="true">Cryptotracker</a>
+                     
                       <a class="nav-item nav-link" id="nav-recip-tab" data-toggle="tab" href="#nav-recip" role="tab" aria-controls="nav-profile" aria-selected="false">ReciP</a>
+                     
                       <a class="nav-item nav-link" id="nav-findapet-tab" data-toggle="tab" href="#nav-findapet" role="tab" aria-controls="nav-contact" aria-selected="false">Find-A-Pet</a>
+                     
                       <a class="nav-item nav-link" id="nav-workoutlogger-tab" data-toggle="tab" href="#nav-workoutlogger" role="tab" aria-controls="nav-contact" aria-selected="false">Workout Logger</a>
                     </div>
                   </nav>
+                  
+                  <!-- Project Content -->
                   <div class="tab-content" id="nav-tabContent">
-                    <div class="tab-pane fade show active" id="nav-cryptotracker" role="tabpanel" aria-labelledby="nav-cryptotracker-tab">Cryptotracker!</div>
-                    <div class="tab-pane fade" id="nav-recip" role="tabpanel" aria-labelledby="nav-recip-tab">ReciP</div>
-                    <div class="tab-pane fade" id="nav-findapet" role="tabpanel" aria-labelledby="nav-findapet-tab">Find a Pet</div>
-                    <div class="tab-pane fade" id="nav-workoutlogger" role="tabpanel" aria-labelledby="nav-workoutlogger-tab">Workout Logger</div>
-                  </div>
-            <!-- <ul class="nav nav-pill">
-                <li class="active"><a data-toggle="tab" href="#cryptotracker">Cryptotracker</a></li>
-                <li><a data-toggle="tab" href="#recip">ReciP</a></li>
-                <li><a data-toggle="tab" href="#findapet">Find-A-Pet</a></li>
-                <li><a data-toggle="tab" href="#workoutlogger">Workout Logger</a></li>
-            </ul> -->
-
-            <!-- Individual project pages -->
-            <!-- <div class="tab-content">
-                <div id="cryptotracker" class="tab-pane fade in active">
-                    <a href="https://radiant-earth-24132.herokuapp.com/"  target="_blank">
-                        <img src="https://i.imgur.com/uT5Y4QA.png" class="project-img" /> </a>
-                    <p class="project-desc">Crypto Tracker pulls in pricing information for various cryptocurrencies, and graphs data using ChartJS.  Built using React on Node, utilizes the CoinCap, Kraken, and Poloniex APIs.</p>
-                </div>
-                
-                <div id="recip" class="tab-pane fade">
-                    <a href="https://recip-node.herokuapp.com/"  target="_blank">
-                        <img src="https://i.imgur.com/RfJ6nJF.png" class="project-img" /> </a>
-                    <p class="project-desc">ReciP allows users to search for any recipe, giving them the option to create an account and bookmark their favorite recipes.  Built with Express on Node, and utilizing the Edamam API.</p>
-                </div>
-                
-                <div id="findapet" class="tab-pane fade">
-                    <a href="https://findapetv2.herokuapp.com/"  target="_blank">
-                        <img src="https://i.imgur.com/oDoeSmC.png" class="project-img" /> </a>
-                    <p class="project-desc">Find-A-Pet is a one-stop shop for people and shelters that have pets who are available for adoption or to foster.  Built with Ruby on Rails, Find-A-Pet allows users to upload images, which are stored using AWS.</p>
-                </div>
-                
-                <div id="workoutlogger" class="tab-pane fade">
-                    <a href="https://workoutlogger44.herokuapp.com/"  target="_blank">
-                        <img src="https://i.imgur.com/R3fnugO.png" class="project-img" /> </a>
-                    <p class="project-desc">Workout Logger allows users to keep track of their workout history, while generating motivational quotes to inspire.  Built with Ruby on Rails.</p>
-                </div>
-            </div> -->
+                    
+                    <div class="tab-pane fade show active" id="nav-cryptotracker" role="tabpanel" aria-labelledby="nav-cryptotracker-tab">
+                        <a href="https://radiant-earth-24132.herokuapp.com/"  target="_blank">
+                            <img src="https://i.imgur.com/uT5Y4QA.png" class="project-img" /> </a>
+                        <p class="project-desc">Crypto Tracker pulls in pricing information for various cryptocurrencies, and graphs data using ChartJS.  Built using React on Node, utilizes the CoinCap, Kraken, and Poloniex APIs.</p>
+                    </div>
+                    
+                    <div class="tab-pane fade" id="nav-recip" role="tabpanel" aria-labelledby="nav-recip-tab">
+                        <a href="https://recip-node.herokuapp.com/"  target="_blank">
+                            <img src="https://i.imgur.com/RfJ6nJF.png" class="project-img" /> </a>
+                        <p class="project-desc">ReciP allows users to search for any recipe, giving them the option to create an account and bookmark their favorite recipes.  Built with Express on Node, and utilizing the Edamam API.</p>
+                    </div>
+                    
+                    <div class="tab-pane fade" id="nav-findapet" role="tabpanel" aria-labelledby="nav-findapet-tab">
+                        <a href="https://findapetv2.herokuapp.com/"  target="_blank">
+                            <img src="https://i.imgur.com/oDoeSmC.png" class="project-img" /> </a>
+                        <p class="project-desc">Find-A-Pet is a one-stop shop for people and shelters that have pets who are available for adoption or to foster.  Built with Ruby on Rails, Find-A-Pet allows users to upload images, which are stored using AWS.</p>
+                    </div>
+                    
+                    <div class="tab-pane fade" id="nav-workoutlogger" role="tabpanel" aria-labelledby="nav-workoutlogger-tab">
+                        <a href="https://workoutlogger44.herokuapp.com/"  target="_blank">
+                            <img src="https://i.imgur.com/R3fnugO.png" class="project-img" /> </a>
+                        <p class="project-desc">Workout Logger allows users to keep track of their workout history, while generating motivational quotes to inspire.  Built with Ruby on Rails.</p>
+                    </div>
+                  </div>            
         </section>
 
+    <!-- container and column div closers -->
     </div>
     </div>
     
