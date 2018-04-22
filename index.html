@@ -14,22 +14,21 @@
     <div class="row">
     <header class="header">
         <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12" id="header-div">
-            <!-- <img src="./imgs/danagain.jpeg" alt="" id="header-img" />
-            <p class="header-text"><strong>Dan Levenson</strong>, Fullstack Web Developer,<br />
-            NYC born and raised.</p> -->
-            <p class="header-text"><strong>Dan Levenson</strong>, Fullstack Developer.</p>
-            <ul class="nav nav-pills" id="footer-list">
+            <h1 id="name">Dan Levenson</h1>
+            <h4 id="title">Fullstack Developer</h4>
+            <!-- <div> -->
+            <ul class="nav nav-pills" id="header-list">
                 <li class="footer-nav"><a href="https://www.linkedin.com/in/daniel-levenson/" class="fa fa-linkedin-square fa-2x" id="nav-link"></a></li>
                 <li class="footer-nav"><a href="https://www.github.com/dlevenson44" class="fa fa-github fa-2x" id="nav-link"></a></li>
                 <li class="footer-nav"><a href="mailto:daniellevenson4@gmail.com" class="fa fa-envelope-o fa-2x" id="nav-link"></a></li>
-            </ul>
-            <p>
+            </ul>            
+            <p class="text-center" id="button-header">
                 <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#aboutme" aria-expanded="false" aria-controls="aboutme">
                 About Me
                 </button>
             </p>
             <div class="collapse" id="aboutme">
-                <div class="card card-body">
+                <div class="card card-body" id="button-para">
                   Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
                 </div>
             </div>
@@ -65,85 +64,77 @@
             <h1 class="project-header">Recent Projects</h1>
             <!-- nav bar for projects -->
             <nav class="nav justify-content-center" id="project-bar">
-                    <div class="nav nav-tabs" id="nav-tab" role="tablist">
-                      <a class="nav-item nav-link active" id="nav-cryptotracker-tab" data-toggle="tab" href="#nav-cryptotracker" role="tab" aria-controls="nav-home" aria-selected="true">Cryptotracker</a>
-                     
-                      <a class="nav-item nav-link" id="nav-recip-tab" data-toggle="tab" href="#nav-recip" role="tab" aria-controls="nav-profile" aria-selected="false">ReciP</a>
-                     
-                      <a class="nav-item nav-link" id="nav-findapet-tab" data-toggle="tab" href="#nav-findapet" role="tab" aria-controls="nav-contact" aria-selected="false">Find-A-Pet</a>
-                     
-                      <a class="nav-item nav-link" id="nav-workoutlogger-tab" data-toggle="tab" href="#nav-workoutlogger" role="tab" aria-controls="nav-contact" aria-selected="false">Workout Logger</a>
-                    </div>
-                  </nav>
+                <div class="nav nav-tabs" id="nav-tab" role="tablist">
+                    <a class="nav-item nav-link active" id="nav-cryptotracker-tab" data-toggle="tab" href="#nav-cryptotracker" role="tab" aria-controls="nav-home" aria-selected="true">Cryptotracker</a>
+                    
+                    <a class="nav-item nav-link" id="nav-recip-tab" data-toggle="tab" href="#nav-recip" role="tab" aria-controls="nav-profile" aria-selected="false">ReciP</a>
+                    
+                    <a class="nav-item nav-link" id="nav-findapet-tab" data-toggle="tab" href="#nav-findapet" role="tab" aria-controls="nav-contact" aria-selected="false">Find-A-Pet</a>
+                    
+                    <a class="nav-item nav-link" id="nav-workoutlogger-tab" data-toggle="tab" href="#nav-workoutlogger" role="tab" aria-controls="nav-contact" aria-selected="false">Workout Logger</a>
+                </div>
+            </nav>
                   
-                  <!-- Project Content -->
-                  <div class="tab-content" id="nav-tabContent">
-                    <div class="tab-pane fade show active" id="nav-cryptotracker" role="tabpanel" aria-labelledby="nav-cryptotracker-tab">
-                        <div class="text-center" id="project-cont">
-                        <a href="https://radiant-earth-24132.herokuapp.com/"  target="_blank">
-                            <img src="https://i.imgur.com/uT5Y4QA.png" class="project-img" /> </a>                        
-                        </div>
-                        <div class="desc-container">
-                            <p class="project-desc">Cryptotracker tracks pricing information on various cryptocurrencies, including BitCoin, Dash, Ethereum, and LiteCoin.  Pulls information from Cap Market Coin, Kraken, and Poloniex APIs, which are then stored in database after each query.</p>
-                            <p class="project-desc">Built with React on Node</p>
-                            <p class="project-desc">PostgreSQL Database, Hosted on Heroku</p>
-                        </div>
-                    </div>
+            <!-- Project Content -->
+            <div class="tab-content" id="nav-tabContent">
                     
-                    <div class="tab-pane fade" id="nav-recip" role="tabpanel" aria-labelledby="nav-recip-tab">
-                        <div class="text-center" id="project-cont">
-                        <a href="https://recip-node.herokuapp.com/"  target="_blank">
-                            <img src="https://i.imgur.com/RfJ6nJF.png" class="project-img" /> </a>
-                        </div>
-                        <div class="desc-container">
-                            <p class="project-desc">ReciP allows users to search for any recipe, listing ingredients and nutritional information utilizing the Edamam API.  Users can sign up for the app to bookmark their favorite recipes.</p>
-                            <p class="project-desc">Built with Express on Node</p>
-                            <p class="project-desc">PostgreSQL Database, Hosted on Heroku</p>
-                        </div>
+                <!-- Cryptotracker -->
+                <div class="tab-pane fade show active" id="nav-cryptotracker" role="tabpanel" aria-labelledby="nav-cryptotracker-tab">
+                    <div class="text-center" id="project-cont">
+                    <a href="https://radiant-earth-24132.herokuapp.com/"  target="_blank">
+                        <img src="https://i.imgur.com/uT5Y4QA.png" class="project-img" /> </a>                        
                     </div>
-                    
-                    <div class="tab-pane fade" id="nav-findapet" role="tabpanel" aria-labelledby="nav-findapet-tab">
-                        <div class="text-center" id="project-cont">
-                        <a href="https://findapetv2.herokuapp.com/"  target="_blank">
-                            <img src="https://i.imgur.com/oDoeSmC.png" class="project-img" /> </a>
-                        </div>
-                        <div class="desc-container">
-                            <p class="project-desc">Find-A-Pet is a one-stop shop for people and shelters that have pets who are available for adoption or to foster.  Users can easily contact posters, and they can alsocreate accounts and upload images for their posts, with images hosted on AWS.</p>
-                            <p class="project-desc">Built with Ruby on Rails</p>
-                            <p class="project-desc">PostgreSQL Database, Hosted on Heroku</p>
-                        </div>
+                    <div class="desc-container">
+                        <p class="project-desc">Cryptotracker tracks pricing information on various cryptocurrencies, including BitCoin, Dash, Ethereum, and LiteCoin.  Pulls information from Cap Market Coin, Kraken, and Poloniex APIs, which are then stored in database after each query.</p>
+                        <p class="project-desc">Built with React on Node</p>
+                        <p class="project-desc">PostgreSQL Database, Hosted on Heroku</p>
                     </div>
-                    
-                    <div class="tab-pane fade" id="nav-workoutlogger" role="tabpanel" aria-labelledby="nav-workoutlogger-tab">
-                        <div class="text-center" id="project-cont">
-                        <a href="https://workoutlogger44.herokuapp.com/"  target="_blank">
-                            <img src="https://i.imgur.com/R3fnugO.png" class="project-img" /> </a>
-                        </div>
-                        <div class="desc-container">
-                            <p class="project-desc">Workout Logger allows users to keep track of their workout history, while generating motivational quotes to inspire.</p>
-                            <p class="project-desc">Built with Ruby on Rails</p>
-                            <p class="project-desc">PostgreSQL Database, Hosted on Heroku</p>
-                        </div>
+                </div>
+                
+                <!-- ReciP -->
+                <div class="tab-pane fade" id="nav-recip" role="tabpanel" aria-labelledby="nav-recip-tab">
+                    <div class="text-center" id="project-cont">
+                    <a href="https://recip-node.herokuapp.com/"  target="_blank">
+                        <img src="https://i.imgur.com/RfJ6nJF.png" class="project-img" /> </a>
                     </div>
-                  </div>            
+                    <div class="desc-container">
+                        <p class="project-desc">ReciP allows users to search for any recipe, listing ingredients and nutritional information utilizing the Edamam API.  Users can sign up for the app to bookmark their favorite recipes.</p>
+                        <p class="project-desc">Built with Express on Node</p>
+                        <p class="project-desc">PostgreSQL Database, Hosted on Heroku</p>
+                    </div>
+                </div>
+                
+                <!-- Find-A-Pet -->
+                <div class="tab-pane fade" id="nav-findapet" role="tabpanel" aria-labelledby="nav-findapet-tab">
+                    <div class="text-center" id="project-cont">
+                    <a href="https://findapetv2.herokuapp.com/"  target="_blank">
+                        <img src="https://i.imgur.com/oDoeSmC.png" class="project-img" /> </a>
+                    </div>
+                    <div class="desc-container">
+                        <p class="project-desc">Find-A-Pet is a one-stop shop for people and shelters that have pets who are available for adoption or to foster.  Users can easily contact posters, and they can alsocreate accounts and upload images for their posts, with images hosted on AWS.</p>
+                        <p class="project-desc">Built with Ruby on Rails</p>
+                        <p class="project-desc">PostgreSQL Database, Hosted on Heroku</p>
+                    </div>
+                </div>
+                
+                <!-- Workout Logger -->
+                <div class="tab-pane fade" id="nav-workoutlogger" role="tabpanel" aria-labelledby="nav-workoutlogger-tab">
+                    <div class="text-center" id="project-cont">
+                    <a href="https://workoutlogger44.herokuapp.com/"  target="_blank">
+                        <img src="https://i.imgur.com/R3fnugO.png" class="project-img" /> </a>
+                    </div>
+                    <div class="desc-container">
+                        <p class="project-desc">Workout Logger allows users to keep track of their workout history, while generating motivational quotes to inspire.</p>
+                        <p class="project-desc">Built with Ruby on Rails</p>
+                        <p class="project-desc">PostgreSQL Database, Hosted on Heroku</p>
+                    </div>
+                </div>
+            </div>            
         </section>
 
     <!-- container and column div closers -->
     </div>
     </div>
-    
-
-    <!-- footer -->
-    <!-- <footer class="hidden-sm-down">
-        <div class="hidden-sm-down">
-        <ul class="nav nav-pills" id="footer-list">
-            <li class="footer-nav"><a href="https://www.linkedin.com/in/daniel-levenson/" class="fa fa-linkedin-square fa-2x" id="nav-link"></a></li>
-            <li class="footer-nav"><a href="https://www.github.com/dlevenson44" class="fa fa-github fa-2x" id="nav-link"></a></li>
-            <li class="footer-nav"><a href="mailto:daniellevenson4@gmail.com" class="fa fa-envelope-o fa-2x" id="nav-link"></a></li>
-        </ul>
-        </div>    
-    </footer>    -->
-    <!-- </div> -->
 
     <!-- scripts -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
