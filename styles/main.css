@@ -59,18 +59,26 @@ li {
     margin-top: 50px;
 }
 
+#project-bar {
+    margin-top: 25px;
+}
+
 .project-header {    
     font-weight: bold;
     text-align: center;
 }
 
-#one, #two {
-    margin-top: 50px;
+#project-cont {
+    margin-top: 40px;
 }
 
 .project-img {
     height: 125px;
     width: 325px;
+}
+
+.desc-container {
+    margin-top: 25px;
 }
 
 .project-desc {
