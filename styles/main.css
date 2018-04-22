@@ -14,7 +14,7 @@ hr {
     background: linear-gradient(to bottom, #113155 80%,#7db9e8 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#7db9e8',GradientType=0 ); /* IE6-9 */
     height: 100vh;
-    width: 575px;
+    width: 550px;
     position: fixed;
 }
 
@@ -46,7 +46,9 @@ hr {
 }
 
 #aboutme {
-    text-align: center;
+    /* text-align: center; */
+    width: 550px;
+    margin-left: 15px;
 }
 
 #button-para {
