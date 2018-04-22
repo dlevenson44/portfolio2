@@ -27,6 +27,7 @@ hr {
     width: 500px;    
     text-align: center;
     font-weight: bolder;
+    font-family: 'Comfortaa', cursive;
 }
 
 #name {
@@ -45,8 +46,7 @@ hr {
     width: 500px;
 }
 
-#aboutme {
-    /* text-align: center; */
+#aboutme {    
     width: 550px;
     margin-left: 15px;
 }
@@ -69,9 +69,8 @@ li {
     font-weight: bolder;
 }
 
-#one-para {
-    margin-top: 25px;
-    color: #6d6b6b;
+.skills {
+    text-align: center;
 }
 
 .projects {
@@ -85,6 +84,7 @@ li {
 .project-header {    
     font-weight: bold;
     text-align: center;
+    font-family: 'Comfortaa', cursive;
 }
 
 #project-cont {
@@ -92,6 +92,7 @@ li {
 }
 
 .project-img {
+    border-radius: 22.5px;
     height: 125px;
     width: 325px;
 }
@@ -127,7 +128,8 @@ footer {
 }
 
 #nav-link:hover {
-    color: blue;
+    color: #113155;
+    background-color: white;
 }
 
 @media only screen and (max-width: 1400px) {
@@ -153,18 +155,6 @@ footer {
     .header-list {        
         margin-left: 550px;
         margin-top: -200px;
-    }
-
-    #nav-link {
-        color: blue;
-    }
-    
-    #nav-link:visited {
-        color: blue;
-    }
-    
-    #nav-link:hover {
-        color: rgb(8, 8, 22);
     }
 
     .container {
