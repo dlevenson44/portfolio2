@@ -90,6 +90,10 @@ li {
     margin-top: 40px;
 }
 
+.project-link {
+    justify-content: center;
+}
+
 .project-img {
     border-radius: 22.5px;
     height: 125px;
@@ -98,6 +102,7 @@ li {
 
 .desc-container {
     margin-top: 25px;
+    text-align: center;
 }
 
 .project-desc {
