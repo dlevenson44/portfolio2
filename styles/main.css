@@ -161,7 +161,8 @@ li {
         overflow: auto;
         margin-left: -250px;
         margin-top: 40vh;
-        max-width: 100%
+        /* max-width: 100%; */
+        width: 1200px;
     }
 
     #main {
