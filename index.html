@@ -60,9 +60,11 @@
             <!-- nav bar for projects -->
             <nav class="nav justify-content-center" id="project-bar">
                 <div class="nav nav-tabs" id="nav-tab" role="tablist">
-                    <a class="nav-item nav-link active" id="nav-cryptotracker-tab" data-toggle="tab" href="#nav-cryptotracker" role="tab" aria-controls="nav-home" aria-selected="true">Cryptotracker</a>
+                    <a class="nav-item nav-link active" id="nav-recip-tab" data-toggle="tab" href="#nav-recip" role="tab" aria-controls="nav-profile" aria-selected="false">ReciP</a>
+
+                    <a class="nav-item nav-link" id="nav-cryptotracker-tab" data-toggle="tab" href="#nav-cryptotracker" role="tab" aria-controls="nav-home" aria-selected="true">Cryptotracker</a>
                     
-                    <a class="nav-item nav-link" id="nav-recip-tab" data-toggle="tab" href="#nav-recip" role="tab" aria-controls="nav-profile" aria-selected="false">ReciP</a>
+                    <!-- <a class="nav-item nav-link active" id="nav-recip-tab" data-toggle="tab" href="#nav-recip" role="tab" aria-controls="nav-profile" aria-selected="false">ReciP</a> -->
                     
                     <a class="nav-item nav-link" id="nav-findapet-tab" data-toggle="tab" href="#nav-findapet" role="tab" aria-controls="nav-contact" aria-selected="false">Find-A-Pet</a>
                     
@@ -72,9 +74,23 @@
                   
             <!-- Project Content -->
             <div class="tab-content" id="nav-tabContent">
+
+                <!-- ReciP -->
+                <div class="tab-pane fade show active" id="nav-recip" role="tabpanel" aria-labelledby="nav-recip-tab">
+                        <div class="text-center" id="project-cont">
+                        <a href="https://recip-2.herokuapp.com/"  target="_blank">
+                            <img src="https://i.imgur.com/cWCiHMO.png" class="project-img" /> </a>
+                        </div>
+                        <div class="desc-container">
+                            <a href="https://github.com/dlevenson44/ReciP_React" class="project-link">Github Repo</a>
+                            <p class="project-desc">ReciP allows users to search for any recipe, listing ingredients and nutritional information utilizing the Edamam API.  Users can sign up for the app to bookmark their favorite recipes.</p>
+                            <p class="project-desc">Built with React on Express/Node</p>
+                            <p class="project-desc">PostgreSQL Database, Hosted on Heroku</p>
+                        </div>
+                    </div>
                     
                 <!-- Cryptotracker -->
-                <div class="tab-pane fade show active" id="nav-cryptotracker" role="tabpanel" aria-labelledby="nav-cryptotracker-tab">
+                <div class="tab-pane fade" id="nav-cryptotracker" role="tabpanel" aria-labelledby="nav-cryptotracker-tab">
                     <div class="text-center" id="project-cont">
                     <a href="https://shielded-scrubland-84678.herokuapp.com/"  target="_blank">
                         <img src="https://i.imgur.com/uT5Y4QA.png" class="project-img" /> </a>                        
@@ -85,21 +101,7 @@
                         <p class="project-desc">Built with React on Node</p>
                         <p class="project-desc">PostgreSQL Database, Hosted on Heroku</p>
                     </div>
-                </div>
-                
-                <!-- ReciP -->
-                <div class="tab-pane fade" id="nav-recip" role="tabpanel" aria-labelledby="nav-recip-tab">
-                    <div class="text-center" id="project-cont">
-                    <a href="https://recip-node.herokuapp.com/"  target="_blank">
-                        <img src="https://i.imgur.com/RfJ6nJF.png" class="project-img" /> </a>
-                    </div>
-                    <div class="desc-container">
-                        <a href="https://github.com/dlevenson44/ReciP_Deploy_Test" class="project-link">Github Repo</a>
-                        <p class="project-desc">ReciP allows users to search for any recipe, listing ingredients and nutritional information utilizing the Edamam API.  Users can sign up for the app to bookmark their favorite recipes.</p>
-                        <p class="project-desc">Built with Express on Node</p>
-                        <p class="project-desc">PostgreSQL Database, Hosted on Heroku</p>
-                    </div>
-                </div>
+                </div>                
                 
                 <!-- Find-A-Pet -->
                 <div class="tab-pane fade" id="nav-findapet" role="tabpanel" aria-labelledby="nav-findapet-tab">
